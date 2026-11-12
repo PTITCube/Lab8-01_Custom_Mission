@@ -1,10 +1,13 @@
 #include <Arduino.h>
+
 #include <PTITCube.h>
+
+PTIT_CDH cdh;
 
 // TODO: Custom Mission (Trống)
 
 void setup() {
-    Serial.begin(115200);
+    cdh.begin(115200);
 }
 
 void loop() {
