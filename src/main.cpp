@@ -21,7 +21,7 @@ void setup() {
     storage.init();
     com.init();
 
-    cdh.println("[MISSION] Capstone Mission template ready.");
+    cdh.println("MISSION: Capstone Mission template ready.");
 }
 
 void loop() {
