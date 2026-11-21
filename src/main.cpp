@@ -13,7 +13,7 @@ PTIT_COM com;
 PTIT_Storage storage;
 
 void setup() {
-    cdh.begin(115200);
+    cdh.begin();
 
     eps.init();
     sensor.init();
